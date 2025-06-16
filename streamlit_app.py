@@ -6,6 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnableBranch, RunnablePassthrough
 import sys
 
+sys.path.append("notebook/C3 搭建知识库") # 将父目录放入系统路径中
 # 获取当前脚本所在目录
 current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.dirname(current_dir)
